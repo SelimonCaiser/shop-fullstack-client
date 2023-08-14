@@ -22,8 +22,6 @@ const AuthPage = () => {
   const switchForm = () => {
     switchCtn.current.classList.add(styles.is_gx)
 
-    setTimeout(() => switchCtn.current.classList.remove(styles.is_gx), 1500)
-
     switchCtn.current.classList.toggle(styles.is_txr)
     switchCircle1.current.classList.toggle(styles.is_txr)
     switchCircle2.current.classList.toggle(styles.is_txr)
